@@ -4,9 +4,13 @@
 
 def unique_elements(arr)
   hash = Hash.new(0)
+
+  ```
   arr.each do |ele|
     hash[ele] += 1
   end
+  ```
+  
   arr = []
 
   hash.each do |k, v|
